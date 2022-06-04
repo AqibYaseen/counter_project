@@ -15,6 +15,7 @@ div {
 span{
     color: white;
     margin-right: 40px;
+    font-size: larger;
 }
 #counter{
     display: flex;
@@ -22,9 +23,12 @@ span{
     align-items: center;
     margin-right: 30px;
     width: 50px;
+    font-size: larger;
     height: 30px;
     color: white;
-    background-color: ;
+}
+body{
+    background-color: black;
 }
 #buttons{
     display: flex;
@@ -47,4 +51,21 @@ span{
 }#increase{
     height: 50px;
     width: 100px;
+}
+p{
+    border: 3px solid greenyellow;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    left: 50%;
+    
+   
+}
+#click_here:hover{
+    display: none; 
+    
 }

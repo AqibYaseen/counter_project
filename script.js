@@ -17,6 +17,10 @@ document.getElementById("increase").onclick = ()=>{
     changeValue();
 }
 
+document.getElementById("click_here").onclick = ()=>{
+    
+}
+
 
 function changeValue(){
     document.getElementById("counter").innerHTML = counterVal;
