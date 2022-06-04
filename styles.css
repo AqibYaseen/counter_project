@@ -1,0 +1,50 @@
+div {
+    border: 3px solid greenyellow;
+    padding: 10px;
+
+}
+
+#wrapper_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: black;
+
+}
+span{
+    color: white;
+    margin-right: 40px;
+}
+#counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    width: 50px;
+    height: 30px;
+    color: white;
+    background-color: ;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    width: 300px;
+    height: 80px;
+    
+}
+#decrease{
+    margin-right: 20px;
+    height: 50px;
+    width: 100px;
+}
+#reset{
+    margin-right: 20px;
+    height: 50px;
+    width: 100px;
+}#increase{
+    height: 50px;
+    width: 100px;
+}
